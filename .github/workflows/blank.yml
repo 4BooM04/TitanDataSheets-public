@@ -25,8 +25,10 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # Runs a single command using the runners shell
-      - name: json-lint
-  # You may pin to the exact commit or the version.
-  # uses: ocular-d/json-linter@80bcf763ed12bc904e59ecd011f775401fd2e1d6
-        uses: ocular-d/json-linter@0.0.1
+      - name: Lint Code Base
+        uses: github/super-linter@v4
+        env:
+          VALIDATE_ALL_CODEBASE: false
+          VALIDATE_JSON: true
+          DEFAULT_BRANCH: master
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
