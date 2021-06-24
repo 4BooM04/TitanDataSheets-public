@@ -30,5 +30,6 @@ jobs:
         env:
           VALIDATE_ALL_CODEBASE: false
           VALIDATE_JSON: true
+          FILTER_REGEX_INCLUDE: .*1.2.3/.*
           DEFAULT_BRANCH: master
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
