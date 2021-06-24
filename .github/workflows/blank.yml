@@ -27,11 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Validate JSON
-        uses: OrRosenblatt/validate-json-action@0.1.0
-        with:
-          json: /eng/1.2.3/acastus_knights.json,/eng/1.2.3/belator_magno.json,/eng/1.2.3/cerastus_knights.json,/eng/1.2.3/cerastus_knights_atrapos.json,/eng/1.2.3/damage_effects.json,/eng/1.2.3/dawn_of_enlightenment.json,/eng/1.2.3/hammer_of_tyrants.json,/eng/1.2.3/hits.json,/eng/1.2.3/iben_faruk.json,/eng/1.2.3/ignis_ferrus.json,/eng/1.2.3/iracundos.json,/eng/1.2.3/legions.json,/eng/1.2.3/lucius_pretorian.json,/eng/1.2.3/maniples.json,/eng/1.2.3/mantellum_fulmen.json,/eng/1.2.3/meta.json,/eng/1.2.3/nemesis.json,/eng/1.2.3/penumbral_reaper.json,/eng/1.2.3/princeps_seniores_traits.json,/eng/1.2.3/profiles.json,/eng/1.2.3/questoris_knights.json,/eng/1.2.3/questoris_knights_magaera.json,/eng/1.2.3/questoris_knights_styrix.json,/eng/1.2.3/reaver.json,/eng/1.2.3/stratagems.json,/eng/1.2.3/vestiti_ferrus.json,/eng/1.2.3/warhound.json,/eng/1.2.3/warlord.json,/eng/1.2.3/warlord_sinister.json,/eng/1.2.3/warmaster.json,/eng/1.2.3/weapon_traits.json,/eng/1.2.3/weapons.json
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+        uses: docker://orrosenblatt/validate-json-action:latest
+        env:
+          # One or more relative file paths under the repository (seperated by comma) of the JSON files to validate with the schema provided.
+          INPUT_JSONS: /eng/1.2.3/acastus_knights.json,/eng/1.2.3/belator_magno.json,/eng/1.2.3/cerastus_knights.json,/eng/1.2.3/cerastus_knights_atrapos.json,/eng/1.2.3/damage_effects.json,/eng/1.2.3/dawn_of_enlightenment.json,/eng/1.2.3/hammer_of_tyrants.json,/eng/1.2.3/hits.json,/eng/1.2.3/iben_faruk.json,/eng/1.2.3/ignis_ferrus.json,/eng/1.2.3/iracundos.json,/eng/1.2.3/legions.json,/eng/1.2.3/lucius_pretorian.json,/eng/1.2.3/maniples.json,/eng/1.2.3/mantellum_fulmen.json,/eng/1.2.3/meta.json,/eng/1.2.3/nemesis.json,/eng/1.2.3/penumbral_reaper.json,/eng/1.2.3/princeps_seniores_traits.json,/eng/1.2.3/profiles.json,/eng/1.2.3/questoris_knights.json,/eng/1.2.3/questoris_knights_magaera.json,/eng/1.2.3/questoris_knights_styrix.json,/eng/1.2.3/reaver.json,/eng/1.2.3/stratagems.json,/eng/1.2.3/vestiti_ferrus.json,/eng/1.2.3/warhound.json,/eng/1.2.3/warlord.json,/eng/1.2.3/warlord_sinister.json,/eng/1.2.3/warmaster.json,/eng/1.2.3/weapon_traits.json,/eng/1.2.3/weapons.json
