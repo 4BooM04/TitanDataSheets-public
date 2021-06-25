@@ -457,6 +457,7 @@
         "pointsCost":10,
         "repairCost":3,
         "dice":1,
+        "ref":"warp_missile",
         "name":"WARP MISSLE\nSUPPORT RACK"
     },
     {
@@ -550,7 +551,6 @@
         "dice":3,
         "name":"SINISTRAMANUS\nTENEBRAE"
     },
-
     {
         "enabled":true,
         "strength":10,
@@ -623,7 +623,6 @@
         "dice":1,
         "name":"MELTA CANNON"
     },
-
     {
         "enabled":true,
         "name":"TWIN MAGNA\nLASCANNON",
