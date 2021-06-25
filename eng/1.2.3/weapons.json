@@ -1000,7 +1000,7 @@
         "arc":"Straight",
         "disabledCost":12,
         "pointsCost":50,
-        "repairCost":4,
+        "repairCost":4
     },
     {
         "enabled":true,
