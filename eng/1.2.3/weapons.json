@@ -550,7 +550,7 @@
         "dice":3,
         "name":"SINISTRAMANUS\nTENEBRAE"
     },
-    
+
     {
         "enabled":true,
         "strength":10,
@@ -623,7 +623,7 @@
         "dice":1,
         "name":"MELTA CANNON"
     },
-    
+
     {
         "enabled":true,
         "name":"TWIN MAGNA\nLASCANNON",
@@ -640,7 +640,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":0,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -658,7 +658,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":0,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -676,7 +676,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":0,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -694,7 +694,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":0,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -712,7 +712,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":10,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -730,7 +730,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":0,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -748,7 +748,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":0,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -766,7 +766,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":0,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -784,7 +784,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":0,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -802,7 +802,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":0,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -820,7 +820,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":5,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -838,7 +838,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":10,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -856,7 +856,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":10,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -874,7 +874,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":15,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -892,7 +892,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":5,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -910,7 +910,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":15,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -928,7 +928,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":10,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -946,7 +946,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":10,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -964,7 +964,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":15,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -982,7 +982,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":10,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -1018,7 +1018,7 @@
         "arc":"Wide",
         "disabledCost":12,
         "pointsCost":70,
-        "repairCost":4,
+        "repairCost":4
     },
     {
         "enabled":true,
@@ -1036,7 +1036,7 @@
         "arc":"Wide",
         "disabledCost":10,
         "pointsCost":10,
-        "repairCost":4,
+        "repairCost":4
     },
     {
         "enabled":true,
@@ -1054,7 +1054,7 @@
         "arc":"Wide",
         "disabledCost":10,
         "pointsCost":25,
-        "repairCost":4,
+        "repairCost":4
     },
     {
         "enabled":true,
@@ -1072,7 +1072,7 @@
         "arc":"Wide",
         "disabledCost":10,
         "pointsCost":30,
-        "repairCost":4,
+        "repairCost":4
     },
     {
         "enabled":true,
@@ -1090,7 +1090,7 @@
         "arc":"Wide",
         "disabledCost":10,
         "pointsCost":20,
-        "repairCost":4,
+        "repairCost":4
     },
     {
         "enabled":true,
@@ -1108,7 +1108,7 @@
         "arc":"Wide",
         "disabledCost":10,
         "pointsCost":30,
-        "repairCost":4,
+        "repairCost":4
     },
     {
         "enabled":true,
@@ -1126,7 +1126,7 @@
         "arc":"Wide",
         "disabledCost":10,
         "pointsCost":40,
-        "repairCost":4,
+        "repairCost":4
     },
     {
         "enabled":true,
@@ -1145,7 +1145,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":0,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -1164,7 +1164,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":0,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -1183,7 +1183,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":0,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -1202,7 +1202,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":0,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -1220,7 +1220,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":0,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -1238,6 +1238,6 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":0,
-        "repairCost":0,
+        "repairCost":0
     }
 ]
