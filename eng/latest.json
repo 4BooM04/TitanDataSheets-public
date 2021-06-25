@@ -3,9 +3,9 @@
   "jsonVersion": 25,
   "baseUri": "https://raw.githubusercontent.com/AndrewPetrus/TitanDataSheets-public/master/eng/1.2.3/",
   "files": [
-    "acastus_knights.json,",
-    "belator_magno.json,",
-    "cerastus_knights.json,",
+    "acastus_knights.json",
+    "belator_magno.json",
+    "cerastus_knights.json",
     "cerastus_knights_atrapos.json",
     "damage_effects.json",
     "dawn_of_enlightenment.json",
