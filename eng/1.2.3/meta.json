@@ -1,6 +1,6 @@
 {
     "minimumAppVersion": 38,
-    "jsonVersion": 24,
+    "jsonVersion": 25,
     "baseUri": "https://raw.githubusercontent.com/AndrewPetrus/TitanDataSheets-public/master/eng/1.2.3/",
     "files": [
         "acastus_knights.json,",
