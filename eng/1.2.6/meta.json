@@ -1,7 +1,7 @@
 {
   "requiredAppVersion": 34,
-  "jsonVersion": 29,
-  "baseUri": "https://raw.githubusercontent.com/4BooM04/TitanDataSheets-public/master/eng/1.2.5/",
+  "jsonVersion": 30,
+  "baseUri": "https://raw.githubusercontent.com/4BooM04/TitanDataSheets-public/master/eng/1.2.6/",
   "files": [
     "acastus_knights.json",
     "belator_magno.json",
