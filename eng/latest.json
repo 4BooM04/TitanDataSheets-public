@@ -1,6 +1,6 @@
 {
   "requiredAppVersion": 34,
-  "jsonVersion": 30,
+  "jsonVersion": 31,
   "baseUri": "https://raw.githubusercontent.com/4BooM04/TitanDataSheets-public/master/eng/1.2.6/",
   "files": [
     "acastus_knights.json",
@@ -29,6 +29,7 @@
     "reaver.json",
     "stratagems.json",
     "vestiti_ferrus.json",
+    "wargear.json",
     "warhound.json",
     "warlord.json",
     "warlord_sinister.json",
