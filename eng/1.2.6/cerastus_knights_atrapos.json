@@ -58,14 +58,19 @@
     
     "customTraits":"LORD SCION: While the Lord Scion is part of the Banner, add 2 to the result of any Command checks for it.\n\nAGILE: Cerastus Knights are not affected by Difficult terrain or Dangerous terrain.\n\nMACRO-EXTINCTION PROTOCOLS: A Knight-Atrapos may re-roll Hit rolls of a 1 when targeting units with a Scale 7 or higher.",
     
-    "weaponsRequirements":"CERASTUS ATRAPOS WEAPON",
     "availableModels":[
         {
             "id":"cerastus_atrapos_scion_martial",
             "name":"Cerastus Knight-Atrapos Scion Martial",
             "cost":95,
-            "weaponNames":[],
-            "maxWeaponsForModel":2,
+            "weapons":[
+                {
+                    "mountName":"CERASTUS ATRAPOS WEAPON"
+                },
+                {
+                    "mountName":"CERASTUS ATRAPOS WEAPON"
+                }
+            ],
             "upgradeAllowance":"SingleAllowed",
             "upgrades":[]
         }
@@ -75,8 +80,14 @@
             "id":"cerastus_atrapos_lord_scion",
             "name":"Cerastus Knight-Atrapos Lord Scion",
             "cost":105,
-            "weaponNames":[],
-            "maxWeaponsForModel":2,
+            "weapons":[
+                {
+                    "mountName":"CERASTUS ATRAPOS WEAPON"
+                },
+                {
+                    "mountName":"CERASTUS ATRAPOS WEAPON"
+                }
+            ],
             "upgradeAllowance":"SingleAllowed",
             "upgrades":[]
         },
@@ -84,8 +95,14 @@
             "id":"cerastus_atrapos_scion_martial",
             "name":"Cerastus Knight-Atrapos Scion Martial",
             "cost":95,
-            "weaponNames":[],
-            "maxWeaponsForModel":2,
+            "weapons":[
+                {
+                    "mountName":"CERASTUS ATRAPOS WEAPON"
+                },
+                {
+                    "mountName":"CERASTUS ATRAPOS WEAPON"
+                }
+            ],
             "upgradeAllowance":"SingleAllowed",
             "upgrades":[]
         }

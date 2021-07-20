@@ -55,14 +55,19 @@
     
     "customTraits":"LORD SCION: While the Lord Scion is part of the Banner, add 2 to the result of any Command checks for it.\n\nAGILE: Questoris Knights are not affected by Difficult terrain or Dangerous terrain.\n\nMELTAGUN: When the Banner is activated in the Combat phase, each Knight with a meltagun upgrade can target an enemy unit within 3\". That unit suffers a Strength 8 hit.",
     
-    "weaponsRequirements":"QUESTORIS WEAPON",
     "availableModels":[
         {
             "id":"questoris_scion_martial",
             "name":"Questoris Knight Scion Martial",
             "cost":35,
-            "weaponNames":[],
-            "maxWeaponsForModel":2,
+            "weapons":[
+                {
+                    "mountName":"QUESTORIS WEAPON"
+                },
+                {
+                    "mountName":"QUESTORIS WEAPON"
+                }
+            ],
             "upgradeAllowance":"MultipleAllowed",
             "upgrades":[
                 {
@@ -83,8 +88,14 @@
             "id":"questoris_lord_scion",
             "name":"Questoris Knight Lord Scion",
             "cost":50,
-            "weaponNames":[],
-            "maxWeaponsForModel":2,
+            "weapons":[
+                {
+                    "mountName":"QUESTORIS WEAPON"
+                },
+                {
+                    "mountName":"QUESTORIS WEAPON"
+                }
+            ],
             "upgradeAllowance":"MultipleAllowed",
             "upgrades":[
                 {
@@ -103,8 +114,14 @@
             "id":"questoris_scion_martial",
             "name":"Questoris Knight Scion Martial",
             "cost":35,
-            "weaponNames":[],
-            "maxWeaponsForModel":2,
+            "weapons":[
+                {
+                    "mountName":"QUESTORIS WEAPON"
+                },
+                {
+                    "mountName":"QUESTORIS WEAPON"
+                }
+            ],
             "upgradeAllowance":"MultipleAllowed",
             "upgrades":[
                 {
@@ -123,8 +140,14 @@
             "id":"questoris_scion_martial",
             "name":"Questoris Knight Scion Martial",
             "cost":35,
-            "weaponNames":[],
-            "maxWeaponsForModel":2,
+            "weapons":[
+                {
+                    "mountName":"QUESTORIS WEAPON"
+                },
+                {
+                    "mountName":"QUESTORIS WEAPON"
+                }
+            ],
             "upgradeAllowance":"MultipleAllowed",
             "upgrades":[
                 {

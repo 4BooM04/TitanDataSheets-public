@@ -64,14 +64,19 @@
     
     "customTraits":"ARTILLERY: If an Acastus Knight Banner is issued First Fire or Split Fire orders during the Strategy phase, their BS is increased to 3+ until the End phase.\n\nTWIN AUTOCANNON: When the Banner is activated in the Combat phase, each Knight with twin autocannon can target an enemy unit within 6\". That unit suffers a Strength 4 hit.",
     
-    "weaponsRequirements":"ACASTUS WEAPON",
     "availableModels":[
         {
             "id":"acastus_scion_martial",
             "name":"Acastus Knight Scion Martial",
             "cost":130,
-            "weaponNames":[],
-            "maxWeaponsForModel":2,
+            "weapons":[
+                {
+                    "mountName":"ACASTUS WEAPON"
+                },
+                {
+                    "mountName":"ACASTUS WEAPON"
+                }
+            ],
             "upgradeAllowance":"SingleAllowed",
             "upgrades":[
                 {
@@ -92,8 +97,17 @@
             "id":"acastus_lord_scion",
             "name":"Acastus Knight Lord Scion",
             "cost":150,
-            "weaponNames":[],
-            "maxWeaponsForModel":3,
+            "weapons":[
+                {
+                    "mountName":"ACASTUS WEAPON"
+                },
+                {
+                    "mountName":"ACASTUS WEAPON"
+                },
+                {
+                    "mountName":"ACASTUS WEAPON"
+                }
+            ],
             "upgradeAllowance":"SingleAllowed",
             "upgrades":[
                 {
