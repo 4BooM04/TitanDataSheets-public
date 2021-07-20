@@ -58,14 +58,19 @@
     
     "customTraits":"LORD SCION: While the Lord Scion is part of the Banner, add 2 to the result of any Command checks for it.\n\nAGILE: Cerastus Knights are not affected by Difficult terrain or Dangerous terrain.\n\nKNIGHT-LANCER ION GAUNTLET SHIELD: If the Banner contains one or more Cerastus Knight-Lancer, improve the Banner's Ion Shield save roll by 1.",
     
-    "weaponsRequirements":"CERASTUS WEAPON",
     "availableModels":[
         {
             "id":"cerastus_scion_martial",
             "name":"Cerastus Knight Scion Martial",
             "cost":60,
-            "weaponNames":[],
-            "maxWeaponsForModel":2,
+            "weapons":[
+                {
+                    "mountName":"CERASTUS WEAPON"
+                },
+                {
+                    "mountName":"CERASTUS WEAPON"
+                }
+            ],
             "upgradeAllowance":"SingleAllowed",
             "upgrades":[
                 {
@@ -91,8 +96,14 @@
             "id":"cerastus_lord_scion",
             "name":"Cerastus Knight Lord Scion",
             "cost":70,
-            "weaponNames":[],
-            "maxWeaponsForModel":2,
+            "weapons":[
+                {
+                    "mountName":"CERASTUS WEAPON"
+                },
+                {
+                    "mountName":"CERASTUS WEAPON"
+                }
+            ],
             "upgradeAllowance":"SingleAllowed",
             "upgrades":[
                 {
@@ -116,8 +127,14 @@
             "id":"cerastus_scion_martial",
             "name":"Cerastus Knight Scion Martial",
             "cost":60,
-            "weaponNames":[],
-            "maxWeaponsForModel":2,
+            "weapons":[
+                {
+                    "mountName":"CERASTUS WEAPON"
+                },
+                {
+                    "mountName":"CERASTUS WEAPON"
+                }
+            ],
             "upgradeAllowance":"SingleAllowed",
             "upgrades":[
                 {
